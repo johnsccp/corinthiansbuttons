@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.unitau.botoes"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="9" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icone5"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="br.unitau.botoes.Splash"
+            android:label="@string/app_name" 
+             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:screenOrientation="portrait">
+             
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="br.unitau.botoes.MenuInicial"
+            android:label="@string/app_name" 
+             android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        
+        
+         <activity
+            android:name="br.unitau.botoes.Botoes"
+            android:label="@string/app_name" 
+             android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        
+         <activity
+            android:name="br.unitau.botoes.Desenvolvedor"
+            android:label="@string/app_name" 
+             android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        
+         <activity
+            android:name="br.unitau.botoes.Sobre"
+            android:label="@string/app_name" 
+             android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+    </application>
+
+</manifest>

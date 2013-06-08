@@ -1,0 +1,40 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:background="@drawable/telamenu2" >
+
+    <ImageView
+        android:id="@+id/IMsair"
+        android:layout_width="149dp"
+        android:layout_height="70dp"
+        android:layout_x="165dp"
+        android:layout_y="385dp"
+        android:src="@drawable/sair" />
+
+    <ImageView
+        android:id="@+id/IMdesenvolvedor"
+        android:layout_width="143dp"
+        android:layout_height="109dp"
+        android:layout_x="168dp"
+        android:layout_y="304dp"
+        android:src="@drawable/desenvolvedor" />
+
+    <ImageView
+        android:id="@+id/IMbotoes"
+        android:layout_width="149dp"
+        android:layout_height="73dp"
+        android:layout_x="6dp"
+        android:layout_y="322dp"
+        android:src="@drawable/botoes" />
+
+    <ImageView
+        android:id="@+id/IMsobre"
+        android:layout_width="142dp"
+        android:layout_height="68dp"
+        android:layout_x="9dp"
+        android:layout_y="385dp"
+        android:src="@drawable/sobre" />
+    
+</AbsoluteLayout>
